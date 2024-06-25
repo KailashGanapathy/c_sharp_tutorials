@@ -42,10 +42,10 @@ namespace v1
             int[] countArray = { 0, 0, 0, 0 };
             int i = 0, colcount=0;
 
-            List<char[]> rows = new List<char[]>();
+            //List<char[]> rows = new List<char[]>();
             using (StreamReader sr = new StreamReader(filePath))
             {
-                sr.ReadLine(); //skipping the first line
+                sr.ReadLine(); 
                 string line;
 
                 while ((line = sr.ReadLine()) != null)
