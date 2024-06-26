@@ -26,7 +26,7 @@ namespace v1
 
                 case 'R':
                     countArray[3]++;
-                    if (countArray[3] % refFrequencyFactor == 0 && printRefpart == true)
+                    if (printRefpart == true && countArray[3] % refFrequencyFactor == 0)
                     {
                         Console.WriteLine($"Reference Part @ ({row}, {col}) detected");
                     }
