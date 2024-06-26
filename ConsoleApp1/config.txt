@@ -1,0 +1,2 @@
+# Print Refence part index percentage 
+referencePartPercetage=30
