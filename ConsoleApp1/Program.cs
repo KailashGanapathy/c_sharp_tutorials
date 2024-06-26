@@ -69,7 +69,7 @@ namespace v1
             Console.WriteLine("Enter the frequency for Reference Part detection (0-100): ");
             int refFrequency = int.Parse(Console.ReadLine());
             int refCounter = 0;
-            bool printRefpart = true;
+            bool printRefpart = true; // printflag
 
             using (StreamReader sr = new StreamReader(filePath))
             {
